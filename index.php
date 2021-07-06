@@ -33,11 +33,6 @@ try {
 	echo $e->getMessage();
 }
 
-if (file_exists('google.mp3')) {
-	echo 'google.mp3: <audio controls id="google"><source src="google.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio><hr>';
-}
-
-if (file_exists('amazon.mp3')) {
-	echo 'amazon.mp3: <audio controls id="amazon"><source src="amazon.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>';
-}
+if (file_exists('google.mp3')) { echo '<a href="google.mp3" target="_blank">google.mp3</a><hr>'; }
+if (file_exists('amazon.mp3')) { echo '<a href="amazon.mp3" target="_blank">amazon.mp3</a>'; }
 ?>
