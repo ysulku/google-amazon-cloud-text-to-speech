@@ -10,9 +10,9 @@ To setup correctly:
 1) Get your own Amazon and Google Service Account Key and Secret.
 2) Create config.php file into root as follow and write your own informations.
 
-$AmazonKey = 'YOUR_AMAZON_KEY';
+$AmazonKey = 'YOUR_AmazonKey';
 
-$AmazonSecret = 'YOUR_AMAZON_SECRET';
+$AmazonSecret = 'YOUR_AmazonSecret';
 
 $GoogleServiceAccountJSONPath = 'YOUR_GoogleServiceAccountJSONPath';
 
