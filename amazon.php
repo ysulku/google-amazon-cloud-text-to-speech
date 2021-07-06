@@ -6,8 +6,8 @@
 		'version' => 'latest',
 		'region' => 'eu-central-1',
 		'credentials' => [
-			'key' => 'AKIAVNT4X3VICF3N7P6D',
-			'secret' => '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',
+			'key' => $AmazonKey,
+			'secret' => $AmazonSecret,
 			]
 		];
 		  
@@ -18,7 +18,7 @@
 		'LanguageCode' => 'de-DE',
 		'Text' => 'Amazon Tonaufnahme: '.$_REQUEST['textToSpeech'],
 		'TextType' => 'text',
-		'VoiceId' => 'Vicki', //pass preferred voice id here
+		'VoiceId' => 'Vicki'
 	];
 
 	$result = $client->synthesizeSpeech($args);
