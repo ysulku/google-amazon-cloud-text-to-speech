@@ -14,4 +14,6 @@ $AmazonKey = 'YOUR_AMAZON_KEY';
 
 $AmazonSecret = 'YOUR_AMAZON_SECRET';
 
+$GoogleServiceAccountJSONPath = 'YOUR_GoogleServiceAccountJSONPath';
+
 3) Download Google Service Account .json file into google-cloud folder.
