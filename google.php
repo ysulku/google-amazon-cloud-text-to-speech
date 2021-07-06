@@ -7,7 +7,7 @@
 	use Google\Cloud\TextToSpeech\V1\TextToSpeechClient;
 	use Google\Cloud\TextToSpeech\V1\VoiceSelectionParams;
 
-	putenv('GOOGLE_APPLICATION_CREDENTIALS=google-cloud/idyllic-cabinet-319016-3090e97e302a.json');
+	putenv('GOOGLE_APPLICATION_CREDENTIALS='.$GoogleServiceAccountJSONPath);
 
 	$textToSpeechClient = new TextToSpeechClient();
 
